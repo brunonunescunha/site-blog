@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="src/favicon/favicon-da-empresa.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/menu.css">
+    <link rel="stylesheet" href="src/css/rodape.css">
+    <link rel="stylesheet" href="src/css/variavel.css">
+    <link rel="stylesheet" href="src/css/capa-blog.css">
+    <link rel="stylesheet" href="src/css/carrossel-blog.css">
+    <link rel="stylesheet" href="src/css/blogs.css">
+
+    <title>QuartelBi</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="https://quartelbusinessintelligence.com/inicio/"><img class="imagem-logo"
+                        src="src/img/logo.png" alt="logo da agência Quartel Business Intelligence"></a>
+            </div>
+
+            <nav>
+                <input type="checkbox" id="menu-hamburguer1">
+
+                <label for="menu-hamburguer1">
+                    <div class="menu-hamburguer">
+                        <span class="hamburguer"></span>
+                    </div>
+                </label>
+                <ul>
+                    <li class="menu menu-inicio "><a href="https://quartelbusinessintelligence.com/inicio/">Inicio</a>
+                    </li>
+                    <li class="menu menu-sobre"><a href="https://quartelbusinessintelligence.com/sobre/">Sobre</a></li>
+                    <li class="menu menu-servicos">
+                        <a class="titulo" href="#">Serviços</a>
+                        <div class="servicos">
+                            <a href="https://quartelbusinessintelligence.com/consultoria/">Consultoria</a>
+                            <a href="https://quartelbusinessintelligence.com/coaching/">Coaching</a>
+                            <a href="https://quartelbusinessintelligence.com/treinamento/">Treinamento</a>
+                            <a href="https://quartelbusinessintelligence.com/assessment/">Assessment</a>
+                        </div>
+                    </li>
+                    <li class="menu menu-blog ativo"><a href="https://quartelbusinessintelligence.com/blog/">Blog</a>
+                    </li>
+                    <li class="menu menu-ferramentas "><a
+                            href="https://quartelbusinessintelligence.com/ferramentas/">Ferramentas</a></li>
+                    <li class="menu menu-contatos"><a
+                            href="https://quartelbusinessintelligence.com/contato/">Contatos</a></li>
+                </ul>
+
+            </nav>
+            <a href="https://api.whatsapp.com/send?phone=5547997125754&text=Olá! estou no site do Quartel Business Intelligence. E quero saber mais sobre a empresa!"
+                target="_blank"><i id="whatsapp" class="fab fa-whatsapp"></i></a>
+        </div>
+    </header>
+    <section class="capa-blog">
+        <div class="fundo">
+        </div>
+        <h2 class="titulo" data-aos="fade-right" data-aos-duration="1500">Blog</h2>
+    </section>
+
+    <h2 class="titulo-mais-lido t1">Blogs mais lidos</h2>
+
+    <section class="carrossel-blog" data-aos="fade-left" data-aos-duration="1500">
+        <div class="carrossel">
+            <div class="conteudo-carrassel ">
+                <a class="seta seta-voltar " id="seta-voltar"></a>
+
+                <div class="caixa mostrar">
+                    <h3 class="titulo-carrossel-blog">China</h3>
+                    <div class="imagem"><img src="src/img/china.jpg" alt="imagem da china"></div>
+                    <div class="info-carrossel">
+                        <h3 class="titulo-carrossel-blog">China</h3>
+                        <p class="texto-carrossel-blog">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Necessitatibus consequatur neque culpa.
+                            consequatur tenetur doloribus ea praesentium odit adipisci sed a ullam, molestias
+                            corporis?Lorem ipsu m dolor sit amet, consectetur adipisicing elit. Eaqueconsequatur tenetur
+                            doloribus ea praesentium odit adipisci sed a ullam, molestias
+                            corporis?Lorem ipsu m dolor sit amet, consectetur adipisicing elit. Eaque </p>
+
+                        <div class="btn-ler-mais">
+                            <a href="#">Ler mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="caixa ">
+
+                    <h3 class="titulo-carrossel-blog">Cidade grande</h3>
+
+                    <div class="imagem"><img src="src/img/cidade-grande.jpg" alt="imagem de um grande cidade"></div>
+                    <div class="info-carrossel">
+                        <h3 class="titulo-carrossel-blog">Cidade grande</h3>
+                        <p class="texto-carrossel-blog">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Necessitatibus consequatur neque culpa.
+                            consequatur tenetur doloribus ea praesentium odit adipisci sed a ullam, molestias
+                            corporis?Lorem ipsu m dolor sit amet, consectetur adipisicing elit. Eaque
+                        </p>
+
+                        <div class="btn-ler-mais">
+                            <a href="#">Ler mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="caixa">
+
+                    <h3 class="titulo-carrossel-blog">Árvore no por do sol</h3>
+
+                    <div class="imagem"><img src="src/img/uma-arvore-com-o-por-do-sol-atas.jpg"
+                            alt="imagem de uma arvore com o por do sol atás">
+                    </div>
+                    <div class="info-carrossel">
+                        <h3 class="titulo-carrossel-blog">Árvore no por do sol</h3>
+                        <p class="texto-carrossel-blog"> neque culpa. Impedit reprehenderit minima eum maxime neque
+                            consequatur tenetur doloribus ea praesentium odit adipisci sed a ullam, molestias
+                            corporis?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque nemo atque rerum
+                            sit autem eligendi fugiat corporis beatae! Amet quae reprehenderit earum aut deleniti
+                            voluptas molestias reiciendis autem dolorum ratione.</p>
+
+                        <div class="btn-ler-mais">
+                            <a href="#">Ler mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="caixa">
+
+                    <h3 class="titulo-carrossel-blog">Dois menino</h3>
+
+                    <div class="imagem"><img src="src/img/dois-menino.jpg" alt="imagem de Dois menino"></div>
+                    <div class="info-carrossel">
+                        <h3 class="titulo-carrossel-blog">Dois menino</h3>
+                        <p class="texto-carrossel-blog">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Necessitatibus consequatur neque culpa. Impedit reprehenderit minima eum maxime neque
+                            consequatur tenetur doloribus ea praesentium odit adipisci sed a ullam,consequatur tenetur
+                            doloribus ea praesentium odit adipisci sed a ullam, molestias
+                            corporis?Lorem ipsu m dolor sit amet, consectetur adipisicing elit. Eaqueconsequatur tenetur
+                            doloribus ea praesentium odit adipisci sed a ullam, molestias
+                            corporis?Lorem ipsu m dolor sit amet, consectetur adipisicing elit. Eaque </p>
+
+                        <div class="btn-ler-mais">
+                            <a href="#">Ler mais</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="caixa">
+
+                    <h3 class="titulo-carrossel-blog">Cachoeira congelada</h3>
+
+                    <div class="imagem"><img src="src/img/cachoeira-congelada.jpg" alt="imagem de uma cachoeira congelada"></div>
+                    <div class="info-carrossel">
+                        <h3 class="titulo-carrossel-blog">Cachoeira congelada</h3>
+                        <p class="texto-carrossel-blog">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat, pariatur a asperiores!sint adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat, pariatur a asperioresipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat, pariatur a asperiores!
+                        </p>
+
+                        <div class="btn-ler-mais">
+                            <a href="#">Ler mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="caixa">
+
+                    <h3 class="titulo-carrossel-blog">Mulher segurando sinalizador</h3>
+
+                    <div class="imagem"><img src="src/img/mulher-segurando-sinalizador.jpg" alt="imagem de uma mulher segurando o sinalizador de fumaca azul"></div>
+                    <div class="info-carrossel">
+                        <h3 class="titulo-carrossel-blog">Mulher segurando sinalizador</h3>
+                        <p class="texto-carrossel-blog">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint
+                            adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae
+                            labore possimus nemo fugiat, pariatur a asperiores!sint adipisci itaque dolorum totam!
+                            Cupiditate ipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat,
+                            pariatur a asperiores!
+                        </p>
+
+                        <div class="btn-ler-mais">
+                            <a href="#">Ler mais</a>
+                        </div>
+                    </div>
+                </div>
+                <a class="seta seta-avancar" id="seta-avancar"></a>
+
+            </div>
+        </div>
+
+    </section>
+
+    <h2 class="titulo-por-categoria t1">Blogs por Categorias</h2>
+
+    <section class="blogs">
+        <div class="conteudo">
+
+            <div class="cartegorias height">
+
+                <input type="checkbox" name="categoria" id="categoria">
+
+                <label for="categoria">
+                <h1 class="titulo1">Categorias</h1>
+            </label>
+
+                <ul class="categoria-ul apertada">
+                    <p class="pagina-cartegoria ativa1">Pagina 1</p>
+
+                    <li><a class="pagina-1-1" href="#fazenda1">Fazenda</a></li>
+                    <li><a class="pagina-1-1" href="#fazenda">Cidade Grande</a></li>
+                    <li><a class="pagina-1-1" href="#cidade-grande">Livro Antigo</a></li>
+                    <li><a class="pagina-1-1" href="#livro-antigo">China</a></li>
+                    <li><a class="pagina-1-1" href="#china">Dois Menino</a></li>
+                    <li><a class="pagina-1-1" href="#dois-menino">Montanha</a></li>
+                    <li><a class="pagina-1-1" href="#montanha ">Mulher Olhando o Lago</a></li>
+                    <li><a class="pagina-1-1" href="#mulher-olhando-o-lago">Árvore no por do sol</a></li>
+                    
+                    <p class="pagina-cartegoria">Pagina 2</p>
+
+                    <li><a class="pagina-2-1" href="#cavalo1">Homen andando cavalo</a></li>
+                    <li><a class="pagina-2-1" href="#cavalo">Comunidade da empressa</a></li>
+                    <li><a class="pagina-2-1" href="#comunidade-da-empressa">Foto antiga</a></li>
+                    <li><a class="pagina-2-1" href="#foto-antiga">Homen comendo pizza</a></li>
+                    <li><a class="pagina-2-1" href="#homen-comendo-pizza">Evolusão da empressa</a></li>
+                    <li><a class="pagina-2-1" href="#evolusao-da-empressa">Cachoeira congelada</a></li>
+                    <li><a class="pagina-2-1" href="#cachoeira-congelada">Homen tirando foto</a></li>
+                    <li><a class="pagina-2-1" href="#homen-tirando-foto">Pagína de livro com arte</a></li>
+
+                    <p id="cavalo1" class="pagina-cartegoria">Pagina 3</p>
+
+                    <li id="mulher-segurando-sinalizador1"><a id="fazenda1"   class="pagina-3-1" href="#mulher-segurando-sinalizador1">Mulher segurando sinalizador</a></li>
+                    <li><a class="pagina-3-1" href="#mulher-segurando-sinalizador">Céu com nuvem rosa</a></li>
+                    <li><a class="pagina-3-1" href="#ceu-com-nuvem-rosa">Fazendo um piquenique</a></li>
+                    <li><a class="pagina-3-1" href="#fazendo-um-piquenique">Ponte em preto em branco</a></li>
+                    <li><a class="pagina-3-1" href="#ponte-em-preto-em-branco">Roupas</a></li>
+                    <li><a class="pagina-3-1" href="#roupas">Mulher sentada</a></li>
+                    <li><a  class="pagina-3-1" href="#mulher-sentada">Limpando a praia</a></li>
+                    <li><a  class="pagina-3-1" href="#limpando-a-praia">Pessoa estudando</a></li>
+
+                    <p id="cidade-grande1" class="pagina-cartegoria">Pagina 4</p>
+
+                </ul>
+            </div>
+            
+        <div class="containe selecionado" id="fazenda">
+            <div class="blog" data-aos="fade-right" data-aos-duration="1500">
+                <div class="imagem"><img src="src/img/fazenda.jpg" alt="imagem de uma fazendo pequena">
+                </div>
+                <div class="infomacao">
+                    <h1 class="titulo">Fazenda</h1>
+
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint
+                        adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae
+                        labore possimus nemo fugiat, pariatur a asperiores!sint adipisci itaque dolorum totam!
+                        Cupiditate ipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat,
+                        pariatur a asperiores!</p>
+
+                    <a href="#" class="ler-mais">Ler mais</a>
+                </div>
+            </div>
+
+            <div class="blog" id="cidade-grande" data-aos="fade-left" data-aos-duration="1500">
+                <div class="imagem"><img src="src/img/cidade-grande.jpg" alt="imagem de uma cidade grande">
+                </div>
+                <div class="infomacao">
+                    <h1 class="titulo">Cidade Grande</h1>
+
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint
+                        adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae
+                        labore possimus nemo fugiat, pariatur a asperiores! corporis?Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit. Veniam quo culpa repellat dolorem, expedita eaque fugit tempora
+                        laboriosam, maxime tenetur ex vitae similique. Molestiae numquam assumenda voluptatum quae
+                        accusantium nobis.</p>
+
+                    <a href="#" class="ler-mais">Ler mais</a>
+                </div>
+            </div>
+
+            <div class="blog" id="livro-antigo" data-aos="fade-right" data-aos-duration="1500">
+                <div class="imagem"><img src="src/img/livro-antigo.jpg" alt="imagem de uma livro antigo e uma rosa">
+                </div>
+                <div class="infomacao">
+                    <h1 class="titulo">Livro Antigo</h1>
+
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint
+                        adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae
+                        labore possimus nemo fugiat, pariatur a asperiores!</p>
+
+                    <a href="#" class="ler-mais">Ler mais</a>
+                </div>
+            </div>
+
+            <div class="blog" id="china" data-aos="fade-left" data-aos-duration="1500">
+                <div class="imagem"><img src="src/img/china.jpg" alt="imagem da china">
+                </div>
+                <div class="infomacao">
+                    <h1 class="titulo">China</h1>
+
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint
+                        adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae
+                        labore possimus nemo fugiat, pariatur a asperiores!sint adipisci itaque dolorum totam!
+                        Cupiditate ipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat,
+                        pariatur a asperiores!ipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat,
+                        pariatur a asperiores!</p>
+
+                    <a href="#" class="ler-mais">Ler mais</a>
+                </div>
+            </div>
+
+            <div class="blog" id="dois-menino" data-aos="fade-right" data-aos-duration="1500">
+                <div class="imagem"><img src="src/img/dois-menino.jpg" alt="imagem de uma dois menino tocando istrumentos">
+                </div>
+                <div class="infomacao">
+                    <h1 class="titulo">Dois Menino</h1>
+
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint
+                        adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae
+                        labore possimus nemo fugiat, pariatur a asperiores!sint adipisci itaque dolorum totam!
+                        Cupiditate ipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat,
+                        pariatur a asperiores!</p>
+
+                    <a href="#" class="ler-mais">Ler mais</a>
+                </div>
+            </div>
+
+            <div class="blog" id="montanha" data-aos="fade-left" data-aos-duration="1500">
+                <div class="imagem"><img src="src/img/montanhas.jpg" alt="imagem de uma montanha">
+                </div>
+                <div class="infomacao">
+                    <h1 class="titulo">Montanha</h1>
+
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint
+                        adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae
+                        labore possimus nemo fugiat, pariatur a asperiores!sint adipisci itaque dolorum totam!
+                        Cupiditate ipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat,
+                        pariatur a asperioresipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat,
+                        pariatur a asperiores!</p>
+
+                    <a href="#" class="ler-mais">Ler mais</a>
+                </div>
+            </div>
+
+            <div class="blog" id="mulher-olhando-o-lago" data-aos="fade-right" data-aos-duration="1500">
+                <div class="imagem"><img src="src/img/mulher-olhando-logo.jpg" alt="imagem de uma mulher olhando o logo">
+                </div>
+                <div class="infomacao">
+                    <h1 class="titulo">Mulher Olhando o Lago</h1>
+
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint
+                        adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae
+                        labore possimus nemo fugiat, pariatur a asperiores!sint adipisci itaque dolorum totam!
+                        Cupiditate ipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat,
+                        pariatur a asperiores!</p>
+
+                    <a href="#" class="ler-mais">Ler mais</a>
+                </div>
+            </div>
+
+            <div class="blog" id="arvore-no-por-do-sol" data-aos="fade-left" data-aos-duration="1500">
+                <div class="imagem"><img src="src/img/uma-arvore-com-o-por-do-sol-atas.jpg" alt="imagem de uma árvore no por do sol">
+                </div>
+                <div class="infomacao">
+                    <h1 class="titulo">Árvore no por do sol</h1>
+
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint
+                        adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae
+                        labore possimus nemo fugiat, pariatur a asperiores!sint adipisci itaque dolorum totam!
+                        Cupiditate ipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat,
+                        pariatur a asperiores!</p>
+
+                    <a href="#" class="ler-mais">Ler mais</a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="containe " id="cavalo">
+
+            <div class="blog" >
+                <div class="imagem"><img src="src/img/cavalo.jpg" alt="imagem de uma homen andando a cavalo">
+                </div>
+                <div class="infomacao">
+                    <h1 class="titulo">Homen andando a cavalo</h1>
+
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint
+                        adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae
+                        labore possimus nemo fugiat, pariatur a asperiores!sint adipisci itaque dolorum totam!
+                        Cupiditate </p>
+
+                    <a href="#" class="ler-mais">Ler mais</a>
+                </div>
+            </div>
+
+            <div class="blog" id="comunidade-da-empressa">
+                <div class="imagem"><img src="src/img/comunidade-da-empressa.jpg" alt="imagem de uma comunidade da empressa juntando as mãos">
+                </div>
+                <div class="infomacao">
+                    <h1 class="titulo">Comunidade da empressa</h1>
+
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint
+                        adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae
+                        labore possimus nemo fugiat, pariatur a asperiores! corporis?Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit. Veniam quo culpa repellat dolorem, expedita eaque fugit tempora
+                        laboriosam, maxime tenetur ex vitae similique. Molestiae numquam assumenda voluptatum quae
+                        accusantium nobis.</p>
+
+                    <a href="#" class="ler-mais">Ler mais</a>
+                </div>
+            </div>
+
+            <div class="blog" id="foto-antiga">
+                <div class="imagem"><img src="src/img/foto-antiga.jpg" alt="imagem de uma foto antiga">
+                </div>
+                <div class="infomacao">
+                    <h1 class="titulo">Foto antiga</h1>
+
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint
+                        adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae
+                        labore possimus nemo fugiat, pariatur a asperiores!</p>
+
+                    <a href="#" class="ler-mais">Ler mais</a>
+                </div>
+            </div>
+
+            <div class="blog" id="homen-comendo-pizza">
+                <div class="imagem"><img src="src/img/homen-comendo-pizza-em-cima-do-carro.jpg" alt="imagem de um homen comendo pizza de cima do carro">
+                </div>
+                <div class="infomacao">
+                    <h1 class="titulo">Homen comendo pizza</h1>
+
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint
+                        adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae
+                        labore possimus nemo fugiat, pariatur a asperiores!sint adipisci itaque dolorum totam!
+                        Cupiditate ipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat,
+                        pariatur a asperiores!ipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat,
+                        pariatur a asperiores!</p>
+
+                    <a href="#" class="ler-mais">Ler mais</a>
+                </div>
+            </div>
+
+            <div class="blog" id="evolusao-da-empressa">
+                <div class="imagem"><img src="src/img/evolusao-da-empressa.jpg" alt="imagem de uma reunião">
+                </div>
+                <div class="infomacao">
+                    <h1 class="titulo">Evolusão da empressa</h1>
+
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint
+                        adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae
+                        labore possimus nemo fugiat, pariatur a asperiores!sint adipisci itaque dolorum totam!
+                        Cupiditate ipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat,
+                        pariatur a asperiores!</p>
+
+                    <a href="#" class="ler-mais">Ler mais</a>
+                </div>
+            </div>
+
+            <div class="blog" id="cachoeira-congelada">
+                <div class="imagem"><img src="src/img/cachoeira-congelada.jpg" alt="imagem de uma cachoeira congelada">
+                </div>
+                <div class="infomacao">
+                    <h1 class="titulo">Cachoeira congelada</h1>
+
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint
+                        adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae
+                        labore possimus nemo fugiat, pariatur a asperiores!sint adipisci itaque dolorum totam!
+                        Cupiditate ipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat,
+                        pariatur a asperioresipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat,
+                        pariatur a asperiores!</p>
+
+                    <a href="#" class="ler-mais">Ler mais</a>
+                </div>
+            </div>
+
+            <div class="blog" id="homen-tirando-foto">
+                <div class="imagem"><img src="src/img/homen-tirando-foto.jpg" alt="imagem de uma homen tirando foto">
+                </div>
+                <div class="infomacao">
+                    <h1 class="titulo">Homen tirando foto</h1>
+
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint
+                        adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae
+                        labore possimus nemo fugiat, pariatur a asperiores!sint adipisci itaque dolorum totam!
+                        Cupiditate ipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat,
+                        pariatur a asperiores!</p>
+
+                    <a href="#" class="ler-mais">Ler mais</a>
+                </div>
+            </div>
+
+            <div class="blog" id="pagina-de-livro-com-arte">
+                <div class="imagem"><img src="src/img/pagina-de-livro-com-arte.jpg" alt="imagem de um pagína de livro com desenho de ciências">
+                </div>
+                <div class="infomacao">
+                    <h1 class="titulo">Pagína de livro com arte</h1>
+
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint
+                        adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae
+                        labore possimus nemo fugiat, pariatur a asperiores!sint adipisci itaque dolorum totam!
+                        Cupiditate ipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat,
+                        pariatur a asperiores!</p>
+
+                    <a href="#" class="ler-mais">Ler mais</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="containe " id="mulher-segurando-sinalizador">
+            <div class="blog" >
+                <div class="imagem"><img src="src/img/mulher-segurando-sinalizador.jpg" alt="imagem de uma mulher segurando o sinalizador de fumaca azul">
+                </div>
+                <div class="infomacao">
+                    <h1 class="titulo">Mulher segurando o sinalizador</h1>
+
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint
+                        adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae
+                        labore possimus nemo fugiat, pariatur a asperiores!sint adipisci itaque dolorum totam!
+                        Cupiditate ipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat,
+                        pariatur a asperiores!</p>
+
+                    <a href="#" class="ler-mais">Ler mais</a>
+                </div>
+            </div>
+
+            <div class="blog" id="ceu-com-nuvem-rosa">
+                <div class="imagem"><img src="src/img/ceu-com-nuvem-rosa.jpg" alt="imagem de uma ceu com nuvem rosa">
+                </div>
+                <div class="infomacao">
+                    <h1 class="titulo">Céu com nuvem rosa</h1>
+
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint
+                        adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae
+                        labore possimus nemo fugiat, pariatur a asperiores! corporis?Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit. Veniam quo culpa repellat dolorem, expedita eaque fugit tempora
+                        laboriosam, maxime tenetur ex vitae similique. Molestiae numquam assumenda voluptatum quae
+                        accusantium nobis.</p>
+
+                    <a href="#" class="ler-mais">Ler mais</a>
+                </div>
+            </div>
+
+            <div class="blog" id="fazendo-um-piquenique">
+                <div class="imagem"><img src="src/img/fazendo-um-piquenique.jpg" alt="imagem de dois pessoas fazendo piquenique">
+                </div>
+                <div class="infomacao">
+                    <h1 class="titulo">Fazendo piquenique</h1>
+
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint
+                        adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae
+                        labore possimus nemo fugiat, pariatur a asperiores!</p>
+
+                    <a href="#" class="ler-mais">Ler mais</a>
+                </div>
+            </div>
+
+            <div class="blog" id="ponte-em-preto-em-branco">
+                <div class="imagem"><img src="src/img/ponte-em-preto-em-branco.jpg" alt="imagem de uma ponte em preto em branco">
+                </div>
+                <div class="infomacao">
+                    <h1 class="titulo">Ponte em preto em branco</h1>
+
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint
+                        adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae
+                        labore possimus nemo fugiat, pariatur a asperiores!sint adipisci itaque dolorum totam!
+                        Cupiditate ipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat,
+                        pariatur a asperiores!ipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat,
+                        pariatur a asperiores!</p>
+
+                    <a href="#" class="ler-mais">Ler mais</a>
+                </div>
+            </div>
+
+            <div class="blog" id="roupas">
+                <div class="imagem"><img src="src/img/roupas.jpg" alt="imagem de Roupas">
+                </div>
+                <div class="infomacao">
+                    <h1 class="titulo">Roupas</h1>
+
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint
+                        adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae
+                        labore possimus nemo fugiat, pariatur a asperiores!sint adipisci itaque dolorum totam!
+                        Cupiditate ipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat,
+                        pariatur a asperiores!</p>
+
+                    <a href="#" class="ler-mais">Ler mais</a>
+                </div>
+            </div>
+
+            <div class="blog" id="mulher-sentada">
+                <div class="imagem"><img src="src/img/mulher-sentada.jpg" alt="imagem de uma mulher sentada no banco">
+                </div>
+                <div class="infomacao">
+                    <h1 class="titulo">Mulher sentada</h1>
+
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint
+                        adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae
+                        labore possimus nemo fugiat, pariatur a asperiores!sint adipisci itaque dolorum totam!
+                        Cupiditate ipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat,
+                        pariatur a asperioresipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat,
+                        pariatur a asperiores!</p>
+
+                    <a href="#" class="ler-mais">Ler mais</a>
+                </div>
+            </div>
+
+            <div class="blog" id="limpando-a-praia">
+                <div class="imagem"><img src="src/img/limpando-a-praia.jpg" alt="imagem de pessoas limapando a praia">
+                </div>
+                <div class="infomacao">
+                    <h1 class="titulo">Limpando a praia</h1>
+
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint
+                        adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae
+                        labore possimus nemo fugiat, pariatur a asperiores!sint adipisci itaque dolorum totam!
+                        Cupiditate ipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat,
+                        pariatur a asperiores!</p>
+
+                    <a href="#" class="ler-mais">Ler mais</a>
+                </div>
+            </div>
+
+            <div class="blog" id="pessoa-estudando">
+                <div class="imagem"><img src="src/img/pessoa-estudando.jpg" alt="imagem de uma pessoa estudando">
+                </div>
+                <div class="infomacao">
+                    <h1 class="titulo">Pessoa estudando</h1>
+
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi delectus eos, sint
+                        adipisci itaque dolorum totam! Cupiditate ipsum mollitia suscipit aut repudiandae recusandae
+                        labore possimus nemo fugiat, pariatur a asperiores!sint adipisci itaque dolorum totam!
+                        Cupiditate ipsum mollitia suscipit aut repudiandae recusandae labore possimus nemo fugiat,
+                        pariatur a asperiores!</p>
+
+                    <a href="#" class="ler-mais">Ler mais</a>
+                </div>
+            </div>
+            
+        </div>
+
+            <div class="cartegorias width">
+
+                <input type="checkbox" name="categoria" id="categoria">
+
+                <label for="categoria">
+                <h1 class="titulo">Categorias</h1>
+            </label>
+
+                <ul class="categoria-ul">
+                    <p class="pagina-cartegoria ativa">Pagina 1</p>
+
+                    <li><a class="pagina-1" href="#fazenda">Fazenda</a></li>
+                    <li><a class="pagina-1" href="#fazenda">Cidade Grande</a></li>
+                    <li><a class="pagina-1" href="#cidade-grande">Livro Antigo</a></li>
+                    <li><a class="pagina-1" href="#livro-antigo">China</a></li>
+                    <li><a class="pagina-1" href="#china">Dois Menino</a></li>
+                    <li><a class="pagina-1" href="#dois-menino">Montanha</a></li>
+                    <li><a class="pagina-1" href="#montanha ">Mulher Olhando o Lago</a></li>
+                    <li><a class="pagina-1" href="#mulher-olhando-o-lago">Árvore no por do sol</a></li>
+                    
+                    <p class="pagina-cartegoria">Pagina 2</p>
+
+                    <li><a class="pagina-2" href="#cavalo">Homen andando cavalo</a></li>
+                    <li><a class="pagina-2" href="#cavalo">Comunidade da empressa</a></li>
+                    <li><a class="pagina-2" href="#comunidade-da-empressa">Foto antiga</a></li>
+                    <li><a class="pagina-2" href="#foto-antiga">Homen comendo pizza</a></li>
+                    <li><a class="pagina-2" href="#homen-comendo-pizza">Evolusão da empressa</a></li>
+                    <li><a class="pagina-2" href="#evolusao-da-empressa">Cachoeira congelada</a></li>
+                    <li><a class="pagina-2" href="#cachoeira-congelada">Homen tirando foto</a></li>
+                    <li><a class="pagina-2" href="#homen-tirando-foto">Pagína de livro com arte</a></li>
+
+                    <p class="pagina-cartegoria">Pagina 3</p>
+
+                    <li><a class="pagina-3" href="#mulher-segurando-sinalizador">Mulher segurando sinalizador</a></li>
+                    <li><a class="pagina-3" href="#mulher-segurando-sinalizador">Céu com nuvem rosa</a></li>
+                    <li><a class="pagina-3" href="#ceu-com-nuvem-rosa">Fazendo um piquenique</a></li>
+                    <li><a class="pagina-3" href="#fazendo-um-piquenique">Ponte em preto em branco</a></li>
+                    <li><a class="pagina-3" href="#ponte-em-preto-em-branco">Roupas</a></li>
+                    <li><a class="pagina-3" href="#roupas">Mulher sentada</a></li>
+                    <li><a class="pagina-3" href="#mulher-sentada">Limpando a praia</a></li>
+                    <li><a class="pagina-3" href="#limpando-a-praia">Pessoa estudando</a></li>
+
+                    <p class="pagina-cartegoria">Pagina 4</p>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="pagina">
+            <ul>
+                <li><a class="numero numero-selecionado" href="#fazenda">1</a></li>
+                <li><a class="numero" href="#cavalo">2</a></li>
+                <li><a class="numero" href="#mulher-segurando-sinalizador">3</a></li>
+            </ul>
+        </div>
+
+    </section>
+    <footer class="rodape">
+        <div class="conteudo">
+        <div class="imagem"><img src="src/img/7. Logo secundário branco sem fundo.png"
+                alt="logo da agência Quartel Business Intelligence "></div>
+    
+        <nav>
+            <ul class="icones">
+                <li class="icone"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li class="icone"><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li class="icone"><a href=""><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </nav>
+    
+        <div class="info-empresa">
+            <div class="endereco">
+                <h3 class="titulo">ENDEREÇO</h3>
+                <a href="https://www.google.com/maps/place/Av.+Sete+de+Setembro,+695+-+Fazenda,+Itaja%C3%AD+-+SC,+88301-203/@-26.9123627,-48.6569558,3a,75y,69.73h,90t/data=!3m6!1e1!3m4!1s7WuB8za7Fo2Vh5c1PVEe7w!2e0!7i16384!8i8192!4m7!3m6!1s0x94d8cc0a8b87e3db:0x5ab87723d56abb42!8m2!3d-26.912301!4d-48.6567666!10e5!16s%2Fg%2F11cnchyl4d"
+                    target="_blank">Av. 7 de setembro, 695 - Fazenda - Itajaí - SC</a>
+            </div>
+            <div class="email">
+                <h3 class="titulo">E-MAIL</h3>
+                <a href="mailto:contato@quartelbi.com.br" target="_blank">contato@quartelbi.com.br</a>
+            </div>
+    
+            <div class="telefone">
+                <h3 class="titulo">TELEFONE</h3>
+    
+                <a href="https://api.whatsapp.com/send?phone=5547997125754&text=Olá! estou no site do Quartel Business Intelligence. E quero saber mais sobre a empresa!"
+                    target="_blank"> <i id="whatsapp" class="fab fa-whatsapp"></i> (47) 99712 -5754
+                </a>
+            </div>
+        </div>
+    </div>
+        <div class="termos">
+            <ul>
+                <li><a href="https://quartelbusinessintelligence.com/Política-de-Privacidade/">Política de Privacidade</a></li>
+                <li><a href="https://quartelbusinessintelligence.com/Termos-de-Condições/">Termos e Condições</a></li>
+                <li><a href="https://quartelbusinessintelligence.com/contato/">Contato</a></li>
+            </ul>
+            <p>Copyright © Quartel Business Intelligence</p>
+        </div>
+        
+    
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>   
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,346 @@
+.blogs{
+    overflow: hidden;
+}
+
+.blogs .pagina{
+    width: 46%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 150px;
+}
+
+.blogs .pagina ul {
+    display: flex;
+    gap: 15px;
+}
+.blogs .pagina ul li .numero{
+    font-size: 1.6rem;
+    text-decoration: underline;
+    transition: .2s ease-in-out;
+    color: var(--cor-segundaria);
+}
+.blogs .pagina ul li .numero.numero-selecionado{
+    text-decoration: none;
+    cursor: default;
+    color: var(--cor-de-destaque-site);
+}
+.blogs .pagina ul li .numero:hover{
+    text-decoration: none;
+    color: var(--cor-de-destaque-site);
+}
+
+
+.blogs .conteudo{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    gap: 80px;
+}
+
+.blogs .containe {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 1200px;
+    
+}
+
+.blogs .containe.selecionado{
+    display: flex;
+}
+
+.blogs .containe .blog{
+    background-color: #f0f0f0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 900px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    margin-top: 60px;
+    gap: 30px; 
+}
+
+.blogs .containe .blog.b1{
+    visibility: hidden;
+}
+
+.blogs .containe .blog:nth-child(1){
+    margin-top: 200px;
+}
+
+.blogs .containe .blog:nth-child(8){
+    margin-bottom: 30px;
+}
+.blogs .containe .blog .imagem{
+    width: 400px;
+}
+
+.blogs .containe .blog .imagem img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.blogs .containe .blog .infomacao{
+    max-width: 430px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blogs .containe .blog .infomacao .titulo{
+    font-size: 2.8rem;
+    color: var(--cor-de-destaque-site);
+    margin-bottom: 5px;
+}
+
+.blogs .containe .blog .infomacao .texto{
+    font-size: 1.6rem;
+    line-height: 21px;
+}
+
+.blogs .containe .blog .infomacao a{
+    margin-top: auto;
+    color: var(--cor-segundaria);
+    background-color: var(--cor-de-destaque-site);
+    border-radius: 5px;
+    width: 80px;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    transition: .2s ease-in-out;
+    font-weight: 500;
+}
+
+.blogs .containe .blog .infomacao a:hover{
+    color: var(--cor-de-destaque-site);
+    background-color: var(--cor-segundaria);
+}
+
+.blogs .cartegorias{
+    margin-top: 200px;
+    margin-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    width: 280px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+}
+
+.blogs .cartegorias.height{
+    display: none;
+}
+
+.blogs .cartegorias .categoria-ul.apertada{
+    height: 1050px;
+}
+
+.blogs .cartegorias ul p,
+.blogs .cartegorias .titulo,
+.blogs .cartegorias .titulo1{
+    text-align: center;
+    font-size: 3rem;
+    color: var(--cor-de-destaque-site);
+    background-color: var(--cor-segundaria);
+    width: 100%;
+}
+
+.blogs .cartegorias ul p.ativa,
+.blogs .cartegorias ul p.ativa1{
+    color: var(--cor-padrao);
+}
+
+.blogs .cartegorias .titulo1,
+.blogs .cartegorias .titulo{
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    position: relative;
+    width: 240px;
+}
+.blogs .cartegorias .titulo1{
+    cursor: default;
+}
+
+
+.blogs .cartegorias .titulo::after{
+    content: '';
+    background: url(../img/Seta_low.png) no-repeat center;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    transform: rotate(180deg);
+    top: 8px;
+    transition: .3s ease-in-out;
+}
+
+.blogs .cartegorias .titulo:hover::after{
+    content: '';
+    background: url(../img/Seta-preta_low.png) no-repeat center;
+    background-size: cover;
+    transform: rotate(0);
+}
+
+.blogs .cartegorias .titulo:hover{
+    color: var(--cor-segundaria);
+    background-color: var(--cor-de-destaque-site);
+}
+
+.blogs .cartegorias .categoria-ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 0;
+    overflow: hidden; 
+    transition:.7s all ease-in-out; 
+}
+
+.blogs .cartegorias input {
+    display: none;
+}
+
+.blogs .cartegorias .categoria-ul.apertada{
+    height: 1050px;
+}
+
+
+.blogs .cartegorias ul p{
+   font-size: 1.6rem;
+}
+
+.blogs .cartegorias ul p:nth-child(4){
+    color: var(--cor-segundaria);
+    background-color: aqua;
+}
+
+.blogs .cartegorias ul li a{
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 5px 20px;
+    color: var(--cor-segundaria);
+    background-color: var(--cor-de-destaque-site);
+    transition: .2s ease-in-out;
+    
+}
+.blogs .cartegorias ul li a:hover{
+    background-color: var(--cor-segundaria);
+    color: var(--cor-de-destaque-site);
+}
+
+.t1 {
+    visibility: hidden;
+}
+
+@media(max-height:766px) {
+    .blogs .containe{
+        width: 1000px;
+    }
+}
+
+@media(max-width:1460px){
+    .blogs .pagina{
+        width: 36%;
+    }
+}
+
+@media(max-width:1290px){
+
+    .blogs .containe .blog.b1{
+        visibility: visible;
+    }
+    
+
+    .blogs .conteudo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .blogs .pagina{
+        width: 100%;
+        justify-content: center ;
+    }
+
+    
+    .blogs .containe{
+        align-items: center;
+        width: 100%;
+    }
+    
+    .blogs .containe .blog:nth-child(1){
+        margin-top: 0;
+    }
+
+    .blogs .cartegorias.width{
+        display: none;
+    }
+
+    .blogs .cartegorias.height{
+        display: block;
+        margin-right: 0;
+    }
+  
+}
+
+@media(max-width:940px){
+    .blogs .containe .blog{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 440px;
+        height: 600px;
+    }
+    .blogs .containe .blog .imagem {
+        height: 255px;
+    }
+    .blogs .containe .blog .infomacao{
+        align-items: center;
+        height: 277px;
+    }
+}
+
+
+
+@media(max-width:500px){
+    .blogs .containe .blog{
+        width: 350px;
+        height: 530px;
+        gap: 10px;
+    }
+    .blogs .containe .blog .imagem {
+        width: 310px;
+        height: 200px;
+    }
+
+    .blogs .containe .blog .infomacao{
+        height: 360px;
+    }
+
+    .blogs .containe .blog .infomacao .titulo{
+        font-size: 2.4rem;
+        margin-bottom: 5px;
+    }
+    
+    .blogs .containe .blog .infomacao .texto{
+        font-size: 1.3rem;
+        line-height: 21px;
+    }
+}
+
+@media(max-width:415px){
+    .blogs .containe .blog .imagem{
+        width:260px;
+        height: 180px;
+    }
+    .blogs .containe .blog{
+        width: 315px;
+        height: 530px;
+        gap: 10px;
+        
+    }
+}

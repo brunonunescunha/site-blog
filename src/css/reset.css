@@ -1,0 +1,19 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;  
+    cursor: default; 
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}

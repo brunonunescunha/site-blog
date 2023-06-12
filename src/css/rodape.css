@@ -1,0 +1,139 @@
+.rodape{
+    background-color: var(--cor-segundaria);
+   
+}
+
+.rodape .termos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.rodape .termos p{
+    color:#ffffff;
+    padding: 30px 0;
+    font-size: 1.3rem;
+}
+
+.rodape .termos ul{
+    display: flex;
+    font-size: 1.4rem;
+    
+}
+.rodape .termos ul li a{
+    color: var(--cor-padrao);
+    transition: .3s ease-in-out;
+}
+
+.rodape .termos ul li a:hover{
+    color: var(--cor-de-destaque-site);
+}
+
+.rodape .termos ul li:nth-child(2){
+    margin: 0 30px;
+}
+
+
+
+.rodape .conteudo{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rodape .conteudo .imagem{
+    width: 330px;
+}
+.rodape .conteudo .imagem img{
+    width: 100%;
+    height: 100%;
+}
+
+.rodape .conteudo .info-empresa{
+    color: var( --cor-de-destaque-site);
+    text-align: end;
+    font-size: 2.1rem;
+}
+
+.rodape .conteudo .info-empresa .email{
+    margin: 30px 0;
+}
+
+
+
+.rodape .conteudo .info-empresa a{
+    color: var(--cor-padrao);
+    transition: 0.3s ease-in-out;
+}
+
+.rodape .conteudo .info-empresa a:hover{
+    color: var(--cor-de-destaque-site);
+}
+
+.rodape .conteudo .icones {
+    display: flex;
+    margin-left: 80px;
+}
+.rodape .conteudo .icone:nth-last-child(2){
+    margin: 0 50px;
+}
+
+.rodape .conteudo .icones .icone a{
+    color: var(--cor-padrao);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    width: 50px;
+    height: 50px;
+    border: 2px solid var(--cor-padrao);
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+}
+.rodape .conteudo .icones .icone a:hover{
+    color: var(--cor-de-destaque-site);
+    border: 2px solid var(--cor-de-destaque-site);
+}
+
+@media(max-width:1150px){
+    .rodape .conteudo{
+        flex-direction: column;
+    }
+
+    .rodape .conteudo .icones{
+        margin-left: 0;
+    }
+    .rodape .conteudo .icones .icone a{
+        margin-bottom: 60px;
+    }
+    .rodape .conteudo .info-empresa{
+        text-align: center;
+    }
+    .rodape .conteudo .info-empresa .telefone{
+        margin-bottom: 60px;
+    }
+}
+
+@media(max-width:460px){
+    .rodape .conteudo .icones .icone a{
+        font-size: 2.5rem;
+        width: 45px;
+        height: 45px;
+    }
+
+    .rodape .conteudo .info-empresa{
+        font-size: 1.7rem;
+    }
+    .rodape .conteudo .imagem{
+        width: 300px;
+    }
+    .rodape .termos ul{
+        font-size: 1.2rem;
+
+    }
+    .rodape .termos ul li:nth-child(2){
+        margin: 0 10px;
+    }
+}
